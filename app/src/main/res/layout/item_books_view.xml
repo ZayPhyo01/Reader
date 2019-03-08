@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="165dp"
+    android:layout_marginBottom="@dimen/margin_xxlarge">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/item_book_margin"
+            app:cardCornerRadius="@dimen/top_item_radius"
+            app:cardElevation="@dimen/top_item_elevation"
+            app:layout_anchor="@id/ln_news_item">
+
+            <ImageView
+                android:id="@+id/imv_arrival_news"
+                android:layout_width="@dimen/popular_book_width"
+                android:layout_height="@dimen/popular_book_height"
+                android:scaleType="fitXY"
+                android:src="@drawable/top_book_1" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginBottom="60dp"
+            android:rotation="-45"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_send_black_24dp" />
+
+        <LinearLayout
+            android:id="@+id/ln_news_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xxlarge"
+            android:background="@color/new_arrival_gray"
+            android:orientation="vertical"
+            android:paddingLeft="130dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginBottom="@dimen/margin_medium_2"
+                android:text="@string/new_book_placeholder_title"
+                android:textSize="@dimen/text_regular_2x" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_medium_2"
+                android:text="@string/new_book_placeholder_description"
+                android:textSize="@dimen/text_regular" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:text="@string/news_arrival_result"
+            android:textSize="@dimen/text_regular" />
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

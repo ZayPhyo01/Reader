@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Reader</string>
+    <string name="app_title">မေဟာ္သဓာ</string>
+    <string name="show_all"><u>အကုန္ျပ</u></string>
+    <string name="popular">လူျကိဳက္မ်ားေသာ</string>
+    <string name="new_book_placeholder_title">အႏွိပ္ခံၿပီး ေကာ္ဖီေသာက္လို႔ရမယ့္</string>
+    <string name="new_book_placeholder_description">အႏွိပ္ခန္းမွာ တစ္ကိုယ္လုံး အႏွိပ္ခံပစ္လိုက္တာ
+       \n Spa သြားၿပီး ေပါင္းတင္ေၾကးခၽြတ္ပစ္တာ၊ ...</string>
+    <string name="news_arrival_now">အသစ္ထြက္</string>
+    <string name="news_arrival_result">ဖတ္ရႈ သူ : <b>43</b> ဦး  ေပးပို့သူ  : <b>18</b> ဦး</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

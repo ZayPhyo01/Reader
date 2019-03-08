@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_large"
+
+    android:orientation="horizontal">
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/top_item_radius"
+    android:layout_marginRight="@dimen/item_book_margin"
+    app:cardElevation="@dimen/top_item_elevation"
+    >
+
+ <ImageView
+     android:layout_width="@dimen/top_book_width"
+     android:layout_height="@dimen/top_book_height"
+     android:scaleType="fitXY"
+     android:src="@drawable/top_book_2"
+     />
+
+</android.support.v7.widget.CardView>
+
+ <android.support.v7.widget.CardView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     app:cardCornerRadius="@dimen/top_item_radius"
+     app:cardElevation="@dimen/top_item_elevation"
+     >
+
+  <ImageView
+      android:layout_width="@dimen/top_book_width"
+      android:layout_height="@dimen/top_book_height"
+      android:scaleType="fitXY"
+      android:src="@drawable/top_book_3"
+      />
+
+ </android.support.v7.widget.CardView>
+
+</LinearLayout>
